@@ -1,0 +1,13 @@
+.draver_header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+

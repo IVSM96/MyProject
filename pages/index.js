@@ -1,7 +1,10 @@
-export default function HomePage() {
+import {MenuDrawer} from '../components/MenuDrawer'
+import {HomePage} from '../components/HomePage'
+
+export default function Home () {
     return (
-        <>
-        Hello!!
-        </>
+        <MenuDrawer>
+            <HomePage/>
+        </MenuDrawer>
     )
 }
